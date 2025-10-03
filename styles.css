@@ -3,8 +3,9 @@ h1 {
 }
 
 body {
-    background-color: midnightblue;
+    background-color: #010409;
     color: white;
+    font-family: monospace;
 
 }
 
@@ -23,5 +24,12 @@ input {
     border-radius: 4px;
     background-color: blueviolet;
     color: white;
-    height: 28px;
+    height: 25px;
+}
+
+#contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 }
